@@ -8,6 +8,7 @@ on:
 
 jobs:
   do_not_modify_generated_files:
+    name: 'Never modify index.d.ts and index.js.flow directly'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
