@@ -6,6 +6,10 @@ export type PropertyValue<TValue> = TValue extends Array<infer AValue>
   ? TUnpacked
   : TValue;
 
+
+
+
+
 export type Fallback<T> = { [P in keyof T]: T[P] | NonNullable<T[P]>[] };
 
 export interface StandardLonghandProperties<TLength = (string & {}) | 0, TTime = string & {}> {
