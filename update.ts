@@ -1,7 +1,4 @@
 import build from './build';
-
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import * as packageJson from './package.json';
 import { FLOW_FILENAME, getJsonAsync, questionAsync, spawnAsync, TYPESCRIPT_FILENAME, writeFileAsync } from './utils';
 

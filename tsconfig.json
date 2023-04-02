@@ -9,7 +9,8 @@
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
     "allowJs": false,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "resolveJsonModule": true
   },
   "ts-node": {
     "ignore": ["prepare-tests.ts"]
